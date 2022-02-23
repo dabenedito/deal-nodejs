@@ -1,0 +1,29 @@
+POST http://localhost:4002/produtos
+Content-Type: application/json
+
+{
+    "name": "Notebook D",
+    "price": 3500
+}
+
+###
+
+GET http://localhost:4002/produtos
+
+###
+
+GET http://localhost:4002/produtos/2aedb8ac-69fe-4647-8102-acb38035ae21
+
+###
+
+PUT http://localhost:4002/produtos/97fe4083-225f-4077-bb34-b45970efd689
+Content-Type: application/json
+
+{
+    "name": "Notebook Editado 2",
+    "price": 4300
+}
+
+###
+
+DELETE http://localhost:4002/produtos/27fdb765-22c9-4a5d-90e0-451b809b06bc
