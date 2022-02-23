@@ -1,3 +1,7 @@
-/node_modules
 /.idea
-./store
+
+/v1/node_modules
+/v1/store
+
+/v2/node_modules
+/v2/store
