@@ -2,7 +2,7 @@ POST http://localhost:3333/produtos
 Content-Type: application/json
 
 {
-    "name": "Notebook D",
+    "name": "Notebook A",
     "price": 3500
 }
 
