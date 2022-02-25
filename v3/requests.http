@@ -1,0 +1,62 @@
+POST http://localhost:3333/cursos
+content-type: application/json
+
+{
+    "nome": "Treinamento Node",
+    "duracao": "8 horas", 
+    "dataPublicacao":"2022-02-24T18:56:28.413Z"
+}
+
+###
+
+GET http://localhost:3333/cursos
+
+###
+
+GET http://localhost:3333/cursos/1
+
+###
+
+PUT http://localhost:3333/cursos/2
+content-type: application/json
+
+{
+    "nome": "Treinamento JS",
+    "duracao": "12 horas",
+    "dataPublicacao": "2022-02-24T18:55:49.741Z"
+}
+
+###
+
+DELETE  http://localhost:3333/cursos/3
+
+#########################################
+POST http://localhost:3333/videos
+content-type: application/json
+
+{
+  "titulo": "Treinamento Node",
+  "descricao": "Treinamento realizado pela Deal",
+  "ordem": 1,
+  "url": "https://www.google.com.br/"
+}
+
+###
+GET http://localhost:3333/videos
+
+###
+GET http://localhost:3333/videos/1
+
+###
+PUT http://localhost:3333/videos/2
+content-type: application/json
+
+{
+  "titulo": "Treinamento Node",
+  "descricao": "Treinamento realizado pela Deal, editado",
+  "ordem": 2,
+  "url": "https://www.google.com.br/"
+}
+
+###
+DELETE  http://localhost:3333/videos/10
