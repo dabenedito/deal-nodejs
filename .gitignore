@@ -6,3 +6,8 @@
 /v2/node_modules
 /v2/store
 /v2/dbTreinamento.db
+
+v3/node_modules
+v3/store
+v3/dbTreinamento.db
+v3/movies
